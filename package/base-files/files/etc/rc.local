@@ -1,4 +1,4 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
-
+echo "usbserial vendor=0x05c6 product=0x9201" > /etc/modules.d/usb-serial
 exit 0
